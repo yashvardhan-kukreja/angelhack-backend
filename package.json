@@ -1,0 +1,33 @@
+{
+  "name": "eventoserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "aes256": "^1.0.3",
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.11",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashvardhan-kukreja/angelhack-backend.git"
+  },
+  "author": "yashvardhan-kukreja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashvardhan-kukreja/angelhack-backend/issues"
+  },
+  "homepage": "https://github.com/yashvardhan-kukreja/angelhack-backend#readme"
+}
